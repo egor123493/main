@@ -5,4 +5,5 @@
 - `fe748ee` — 1_lab_repeat
 - `0fba974` — add_rectanle.py_changes: изменения в файле прямоугольника
 - `73ba65c` — square.py_changes: изменения в файле квадрата
-- `b45855f` — Add_doc_and: добавлены docstring'и и документация
+- `b45855f` — Add_doc_and: добавлены документация в .py файлах
+- `0301455` — ADD_.md_files: добавлены .md файлы
