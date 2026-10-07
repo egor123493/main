@@ -1,5 +1,5 @@
 import math
-
+import unittest
 
 def area(r):
     '''
@@ -31,3 +31,11 @@ def perimeter(r):
         perimeter(2)  # 12.566370614359172
     '''
     return 2 * math.pi * r
+class CircleTestCase(unittest.TestCase):
+   def test_zero_mul(self):
+       res = area(2)
+       self.assertEqual(res, 12.566370614359172)
+       
+   def test_square_mul(self):
+       res = perimeter(2)
+       self.assertEqual(res, 12.566370614359172)
